@@ -1,0 +1,5 @@
+# (c) 2018-2022 changes for blu_spark by eng.stk
+
+# Set init values
+on property:vendor.post_boot.parsed=1
+    exec u:r:magisk:s0 root root -- ${MAGISKTMP}/init.blu_spark_boot.sh
