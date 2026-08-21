@@ -5,8 +5,9 @@
 # global properties
 properties() { '
 kernel.string=### Levion Kernel for Motorola E32s ###
+kernel.made=Tony01
 do.devicecheck=1
-do.modules=0
+do.modules=1
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
